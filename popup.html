@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>한글 더미 텍스트</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="li_wrapper">
+    <h1>한글 더미 텍스트 생성기</h1>
+
+    <div class="li_block">
+        <select name="text_len" class="form-control">
+            <option value="1">짧게</option>
+            <option value="2" selected="selected">중간</option>
+            <option value="3">길게</option>
+            <option value="4">아주 길게</option>
+        </select>
+    </div><!-- .li_block -->
+
+    <div class="li_block">
+        <input type="number" name="count" value="5" class="form-control">
+    </div><!-- .li_block -->
+
+    <div class="li_block">
+        <label><input type="checkbox" class="form-check-input" name="add_p_tag"> Add &lt;p&gt; tag to paragraphs</label>
+    </div><!-- .li_block -->
+
+    <div class="li_block">
+        <button name="generate_text" class="btn btn-primary">Generate text</button>
+    </div><!-- .li_block -->
+
+    <div class="li_block">
+        <textarea name="result" rows="10" class="form-control"></textarea>
+    </div><!-- .li_block -->
+
+    <div class="li_block">
+        <button name="copy_text" id="copy_text" class="btn btn-outline-primary">Copy text</button>
+    </div><!-- .li_block -->
+
+
+</div><!-- .li_wrapper-->
+<div class="footer">
+    광고 :&nbsp;&nbsp;<a href="https://xn--ru4b32dw9ah8ozjciwk.kr" target="_blank" rel="noreferrer">https://한컴타자연습.kr</a>
+</div>
+<script src="js/popup.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "한글 더미 텍스트",
+  "description": "한글 더미 텍스트 생성기 확장 프로그램",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_icon": {
+      "128": "img/128x128.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "128": "img/128x128.png",
+    "48": "img/48x48.png"
+  }
+}
