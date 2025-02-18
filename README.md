@@ -17,8 +17,10 @@
 
 ## 배포
 
-```
-```
+* https://chromewebstore.google.com/detail/%ED%95%9C%EA%B8%80-%EB%8D%94%EB%AF%B8-%ED%85%8D%EC%8A%A4%ED%8A%B8/klcglehgedodgjmolajlnjdigbjdiolm
+
+![스크린샷 2025-02-18 오후 8 21 56](https://github.com/user-attachments/assets/eb0f102a-d6b9-46ea-9e53-bc04f6ea1049)
+
 
 ## 참고
 
